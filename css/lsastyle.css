@@ -1,0 +1,33 @@
+/*
+ * Sept - Free Bootstrap 3 Theme/Landing page
+ * Author: CantoThemes
+ * Author URL: https://www.cantothemes.com/
+ * License: Attribution-NonCommercial CC BY-NC 
+ * License URL: https://creativecommons.org/licenses/by-nc/4.0/
+ * 
+ * -------------------------------------------------------------------
+ * This theme under "Attribution-NonCommercial CC BY-NC". You can't remove footer credit link.
+ */
+
+
+ .navbar-brand {
+ 	text-align: center;
+ }
+
+ .navbar-brand h3 {
+ 	margin: 0;
+ 	color: white;
+ }
+
+ .navbar-brand small {
+ 	color: white;
+ }
+
+ .st-navbar-mini .navbar-default .navbar-brand {
+    padding: 15px 15px;
+    font-size: 100%;
+}
+
+ .st-navbar-mini .navbar-default .navbar-brand h3 {
+ 	font-size: 100%;
+ }
