@@ -340,14 +340,14 @@ h6 {
 .section-title.st-center:before {
   margin: auto;
 }
-.section-title:before {
+/*.section-title:before {
   content: "";
   display: block;
   width: 150px;
   height: 51px;
   background-image: url(../images/title-top.png);
   background-repeat: no-repeat;
-}
+}*/
 .bottom-line {
   margin-bottom: 20px;
 }
@@ -383,8 +383,8 @@ h6 {
   position: absolute;
   left: 50%;
   bottom: 40px;
-  border: 2px solid #fff;
-  border-radius: 16px;
+  /*border: 2px solid #fff;
+  border-radius: 16px;*/
   height: 40px;
   width: 24px;
   margin-left: -15px;
@@ -415,7 +415,7 @@ h6 {
 .mouse-icon .wheel {
   position: relative;
   border-radius: 10px;
-  background: #fff;
+  color: #fff;
   width: 2px;
   height: 6px;
   top: 4px;
@@ -892,7 +892,7 @@ h6 {
   background-color: #4ecdc4;
   margin: 0 auto;
 }
-.service {
+.transfers {
   padding: 100px 0;
 }
 .st-feature {
@@ -1563,13 +1563,13 @@ a.social.facebook i {
 a.social.facebook:hover {
   background-color: #2b416f;
 }
-a.social.rss {
+a.social.instagram {
   background-color: #fca73a;
 }
-a.social.rss i {
+a.social.instagram i {
   background-color: #f58b04;
 }
-a.social.rss:hover {
+a.social.instagram:hover {
   background-color: #f58b04;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {

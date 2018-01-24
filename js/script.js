@@ -11,7 +11,18 @@ $(function () {
 		cursorborderradius: '0'
 	});
 
-	$('.main-nav a:not(.dropdown-toggle)').bind('click', function(event) {
+	/*$('.main-nav a:not(.dropdown-toggle)').bind('click', function(event) {
+		var $anchor = $(this);
+
+		$('html, body').stop().animate({
+			scrollTop: $($anchor.attr('href')).offset().top
+		}, 1500, 'easeInOutExpo');
+
+		event.preventDefault();
+	});*/
+
+	// Same as above but applyed to all anchor inks
+	$('a:not(.dropdown-toggle)').bind('click', function(event) {
 		var $anchor = $(this);
 
 		$('html, body').stop().animate({
@@ -20,6 +31,7 @@ $(function () {
 
 		event.preventDefault();
 	});
+
 	/*
 	* Fun Fact with Count Animation
 	*/

@@ -9,6 +9,9 @@
  * This theme under "Attribution-NonCommercial CC BY-NC". You can't remove footer credit link.
  */
 
+.navbar-default {
+    background-color: rgba(0,0,0,0.3);
+}
 
  .navbar-brand {
  	text-align: center;
@@ -31,3 +34,60 @@
  .st-navbar-mini .navbar-default .navbar-brand h3 {
  	font-size: 100%;
  }
+
+
+ .section-title:before {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 51px;
+  background: url(../images/logo_sm.png);
+  background-size: 72px 51px;
+}
+
+.home {
+  background-image: url(../newphotos/vinha02.jpg);
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  padding: 100px 0;
+  position: relative
+}
+
+.call-2-acction {
+    padding: 100px 0;
+    background-image: url(../newphotos/adega02.jpeg);
+    background-position: top center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-color: #000;
+}
+
+.testimonials {
+  padding: 100px 0;
+  background-image: url(../newphotos/vinhabgo.jpg);
+
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #000;
+  color: #fff;
+}
+
+.subscribe {
+  background-image: url(../newphotos/monsaraz_balao.jpg);
+}
+
+.transfers {
+  background-color: #fcfcfc;
+}
+
+.clients {
+  background-color: #fcfcfc;
+}
+
+.btn.btn-lg {
+  padding: 10px 35px 11px 35px;
+}
