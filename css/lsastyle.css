@@ -46,15 +46,17 @@
 }
 
 .home {
-  background-image: url(../newphotos/vinha02.jpg);
+  /*background-image: url(../newphotos/vinha02.jpg);
+  background-image: none;
   background-position: top center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #000;
   padding: 100px 0;
-  position: relative
+  position: relative*/
 }
+
 
 .call-2-acction {
     padding: 100px 0;
@@ -90,4 +92,23 @@
 
 .btn.btn-lg {
   padding: 10px 35px 11px 35px;
+}
+
+
+
+
+
+/* Video */
+.video-controls-box {
+  position: absolute !important;
+  bottom: 40px;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.video-controls-box a {
+  display: inline-block;
+  color: #fff;
+  margin: 0 5px 0 0;
 }
