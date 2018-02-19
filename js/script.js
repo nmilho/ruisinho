@@ -72,6 +72,7 @@ $(function () {
 	});
 
 
+
 	var fadeStart=$(window).height()/3 // 100px scroll or less will equiv to 1 opacity
     ,fadeUntil=$(window).height() // 200px scroll or more will equiv to 0 opacity
     ,fading = $('.st-home-unit')
@@ -115,6 +116,12 @@ $(function () {
 
     $('.clients-carousel').owlCarousel({
     	items: 5,
+    	autoPlay: true,
+    	pagination: false
+    });
+
+    $(".owl-carousel").owlCarousel({
+    	items: 1,
     	autoPlay: true,
     	pagination: false
     });
@@ -230,3 +237,21 @@ $(window).load(function () {
 		$('input[name="filter"]:checked').parent().addClass('btn-main');
 	});
 });
+
+
+
+var images = ['../newphotos/vinha02.jpg', '../newphotos/adega01.jpg', '../newphotos/olival01.jpg', '../newphotos/vinha01.jpg'];
+
+var index  = 0;
+var $top   = $('#home');
+
+setInterval(function() {
+	$top.animate({ opacity: 0 }, 1000, function() {
+		/*$top.css('background-image', 'url('+images[++index]+')');*/
+		$top.css('background-image', 'url('+images[index++]+')');
+	});
+
+	$top.animate({ opacity: 1 }, 1000, function() {
+		if(index === images.length) index = 0;
+	});
+}, 5000);
