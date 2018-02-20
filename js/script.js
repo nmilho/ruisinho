@@ -11,16 +11,6 @@ $(function () {
 		cursorborderradius: '0'
 	});
 
-	/*$('.main-nav a:not(.dropdown-toggle)').bind('click', function(event) {
-		var $anchor = $(this);
-
-		$('html, body').stop().animate({
-			scrollTop: $($anchor.attr('href')).offset().top
-		}, 1500, 'easeInOutExpo');
-
-		event.preventDefault();
-	});*/
-
 	// Same as above but applyed to all anchor inks
 	$('a:not(.dropdown-toggle)').bind('click', function(event) {
 		var $anchor = $(this);
@@ -50,28 +40,7 @@ $(function () {
 	});
 
 	$('[data-toggle="tooltip"]').tooltip();
-
 	
-
-
-    /*function home_height () {
-		var element = $('.st-home-unit'),
-			elemHeight = element.height(),
-			winHeight = $(window).height()
-			padding = (winHeight - (elemHeight - 200)) /2;
-
-		if (padding < 1 ) {
-			padding = 0;
-		};
-		element.css('padding', padding+'px 0');
-	}
-	home_height ();
-
-	$(window).resize(function () {
-		home_height ();
-	});*/
-
-
 
 	var fadeStart=$(window).height()/3 // 100px scroll or less will equiv to 1 opacity
     ,fadeUntil=$(window).height() // 200px scroll or more will equiv to 0 opacity
@@ -118,78 +87,67 @@ $(function () {
     	pagination: false
     });
 
-    /*$(".owl-carousel").owlCarousel({
-    	items: 1,
-    	autoPlay: true,
-    	pagination: false
-    });*/
-
     $("#owl-land").owlCarousel({
 		// Most important owl features
-    items : 1,
-    itemsDesktop : [1199,1],
-    itemsDesktopSmall : [980,1],
-    itemsTablet: [768,1],
-    itemsTabletSmall: false,
-    itemsMobile : [479,1],
-    singleItem : false,
- 
-    //Basic Speeds
-    slideSpeed : 200,
-    paginationSpeed : 800,
-    rewindSpeed : 1000,
- 
-    //Autoplay
-    autoPlay : false,
-    stopOnHover : false,
- 
-    // Navigation
-    navigation : false,
-    navigationText : ["ant","prox"],
-    rewindNav : true,
-    scrollPerPage : false,
- 
-    //Pagination
-    pagination : true,
-    paginationNumbers: false,
- 
-    // Responsive 
-    responsive: true,
-    responsiveRefreshRate : 200,
-    responsiveBaseWidth: window,
- 
-    // CSS Styles
-    /*baseClass : "owl-carousel",
-    theme : "owl-theme",*/
- 
-    //Lazy load
-    lazyLoad : true,
-    lazyFollow : true,
- 
-    //Auto height
-    autoHeight : false,
- 
-    //JSON 
-    jsonPath : false, 
-    jsonSuccess : false,
- 
-    //Mouse Events
-    mouseDrag : true,
-    touchDrag : true,
- 
-    //Transitions
-    transitionStyle : false,
- 
-    // Other
-    addClassActive : false,
- 
-    //Callbacks
-    beforeInit: false, 
-    afterInit: false, 
-    beforeMove: false, 
-    afterMove: false,
-    afterAction: false,
-    startDragging : false
+	    items : 1,
+	    itemsDesktop : [1199,1],
+	    itemsDesktopSmall : [980,1],
+	    itemsTablet: [768,1],
+	    itemsTabletSmall: false,
+	    itemsMobile : [479,1],
+	    singleItem : false,
+	 
+	    //Basic Speeds
+	    slideSpeed : 200,
+	    paginationSpeed : 800,
+	    rewindSpeed : 1000,
+	 
+	    //Autoplay
+	    autoPlay : false,
+	    stopOnHover : false,
+	 
+	    // Navigation
+	    navigation : false,
+	    rewindNav : true,
+	    scrollPerPage : false,
+	 
+	    //Pagination
+	    pagination : true,
+	    paginationNumbers: false,
+	 
+	    // Responsive 
+	    responsive: true,
+	    responsiveRefreshRate : 200,
+	    responsiveBaseWidth: window,
+	 
+	    //Lazy load
+	    lazyLoad : true,
+	    lazyFollow : true,
+	 
+	    //Auto height
+	    autoHeight : false,
+	 
+	    //JSON 
+	    jsonPath : false, 
+	    jsonSuccess : false,
+	 
+	    //Mouse Events
+	    mouseDrag : true,
+	    touchDrag : true,
+	 
+	    //Transitions
+	    transitionStyle : false,
+	 
+	    // Other
+	    addClassActive : false,
+	 
+	    //Callbacks
+	    beforeInit: false, 
+	    afterInit: false, 
+	    beforeMove: false, 
+	    afterMove: false,
+	    afterAction: false,
+	    startDragging : false
 	});
 
     ////// mailchimp //////
