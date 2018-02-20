@@ -54,11 +54,11 @@ $(function () {
 	
 
 
-    function home_height () {
+    /*function home_height () {
 		var element = $('.st-home-unit'),
 			elemHeight = element.height(),
 			winHeight = $(window).height()
-			padding = (winHeight - elemHeight - 200) /2;
+			padding = (winHeight - (elemHeight - 200)) /2;
 
 		if (padding < 1 ) {
 			padding = 0;
@@ -69,7 +69,7 @@ $(function () {
 
 	$(window).resize(function () {
 		home_height ();
-	});
+	});*/
 
 
 
@@ -101,8 +101,6 @@ $(function () {
 	});
 
 
-	
-
 
 	$(".testimonials-carousel ul").owlCarousel({
         items: 1,
@@ -120,11 +118,79 @@ $(function () {
     	pagination: false
     });
 
-    $(".owl-carousel").owlCarousel({
+    /*$(".owl-carousel").owlCarousel({
     	items: 1,
     	autoPlay: true,
     	pagination: false
-    });
+    });*/
+
+    $("#owl-land").owlCarousel({
+		// Most important owl features
+    items : 1,
+    itemsDesktop : [1199,1],
+    itemsDesktopSmall : [980,1],
+    itemsTablet: [768,1],
+    itemsTabletSmall: false,
+    itemsMobile : [479,1],
+    singleItem : false,
+ 
+    //Basic Speeds
+    slideSpeed : 200,
+    paginationSpeed : 800,
+    rewindSpeed : 1000,
+ 
+    //Autoplay
+    autoPlay : false,
+    stopOnHover : false,
+ 
+    // Navigation
+    navigation : false,
+    navigationText : ["ant","prox"],
+    rewindNav : true,
+    scrollPerPage : false,
+ 
+    //Pagination
+    pagination : true,
+    paginationNumbers: false,
+ 
+    // Responsive 
+    responsive: true,
+    responsiveRefreshRate : 200,
+    responsiveBaseWidth: window,
+ 
+    // CSS Styles
+    /*baseClass : "owl-carousel",
+    theme : "owl-theme",*/
+ 
+    //Lazy load
+    lazyLoad : true,
+    lazyFollow : true,
+ 
+    //Auto height
+    autoHeight : false,
+ 
+    //JSON 
+    jsonPath : false, 
+    jsonSuccess : false,
+ 
+    //Mouse Events
+    mouseDrag : true,
+    touchDrag : true,
+ 
+    //Transitions
+    transitionStyle : false,
+ 
+    // Other
+    addClassActive : false,
+ 
+    //Callbacks
+    beforeInit: false, 
+    afterInit: false, 
+    beforeMove: false, 
+    afterMove: false,
+    afterAction: false,
+    startDragging : false
+	});
 
     ////// mailchimp //////
     $(".subscribe-form").ajaxChimp({
@@ -237,21 +303,3 @@ $(window).load(function () {
 		$('input[name="filter"]:checked').parent().addClass('btn-main');
 	});
 });
-
-
-
-var images = ['../newphotos/vinha02.jpg', '../newphotos/adega01.jpg', '../newphotos/olival01.jpg', '../newphotos/vinha01.jpg'];
-
-var index  = 0;
-var $top   = $('#home');
-
-setInterval(function() {
-	$top.animate({ opacity: 0 }, 1000, function() {
-		/*$top.css('background-image', 'url('+images[++index]+')');*/
-		$top.css('background-image', 'url('+images[index++]+')');
-	});
-
-	$top.animate({ opacity: 1 }, 1000, function() {
-		if(index === images.length) index = 0;
-	});
-}, 5000);
