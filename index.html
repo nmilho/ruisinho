@@ -29,7 +29,7 @@
 		<script src="js/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body data-spy="scroll" data-target=".main-nav">
+	<body data-spy="scroll" data-target=".main-nav" id="body">
 
 		<header class="st-navbar">
 			<nav class="navbar navbar-default navbar-fixed-top clearfix" role="navigation">
@@ -49,12 +49,12 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse main-nav" id="sept-main-nav">
 						<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a href="#owl-land">Home</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#transfers">Transfers</a></li>
-							<li><a href="#tours">Tours</a></li>
-							<li><a href="#testimonials">Testimonials</a></li>
-							<li><a href="#contact">Contact</a></li>
+							<li class="active"><a href="owl-land">Home</a></li>
+							<li><a href="about">About</a></li>
+							<li><a href="transfers">Transfers</a></li>
+							<li><a href="tours">Tours</a></li>
+							<li><a href="testimonials">Testimonials</a></li>
+							<li><a href="contact">Contact</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div>
@@ -215,7 +215,9 @@
 								<figcaption>
 									<h2><span>Country</span> Tour</h2>
 									<p>Lily likes to play with crayons and pencils</p>
-									<a href="#" class="btn btn-main"><i class="fa fa-link"></i> View more</a>
+									<a href="#exampleModalLong" role="button" class="btn btn-main hashchange" data-toggle="modal">
+										<i class="fa fa-link"></i> View more
+									</a>
 								</figcaption>
 							</figure>
 							<figure class="portfolio-item" data-groups='["wine"]'>
@@ -432,6 +434,8 @@
 			</div>
 		</section>
 
+		<a class="backtotop" href="#body"><i class="fa fa-angle-up"></i></a>
+
 		<footer class="site-footer">
 			<div class="container">
 				<div class="row">
@@ -444,6 +448,27 @@
 				</div>
 			</div>
 		</footer>
+
+		<!-- Modal -->
+		<div class="modal fade bd-example-modal-lg" id="exampleModalLong-tab" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        ...
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save changes</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="js/jquery.min.js"></script>

@@ -269,3 +269,39 @@ html {
       background-color: #0f75bb;
   }
 }
+
+
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+}
+
+
+.backtotop {
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    background-color: #0f75bb;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+    margin: 2px 0px 0px 0px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    /*display: none;*/
+    color: #fff;
+    transition: background-color ease-in 200ms;
+    -moz-transition: background-color ease-in 200ms;
+    -webkit-transition: background-color ease-in 200ms;
+    -o-transition: background-color ease-in 200ms;
+    -ms-transition: background-color ease-in 200ms;
+}
+
+.backtotop i {
+    vertical-align: sub;
+    color: #fff;
+}

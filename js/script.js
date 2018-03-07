@@ -4,6 +4,7 @@ $(function () {
 		horizontalScrolling: false 
 	});
 
+
 	// Custom Scrollbar
 	var nice = $("html").niceScroll({
 		cursorwidth: 8,
@@ -22,6 +23,7 @@ $(function () {
 		event.preventDefault();
 	});
 
+	
 	/*
 	* Fun Fact with Count Animation
 	*/
@@ -62,10 +64,14 @@ $(function () {
 	    }
 	    fading.css({'opacity': opacity});
 
+	    $('.backtotop').css({'opacity': 1-opacity});
+
 	    if (offset >= 120) {
 	    	$('.st-navbar').addClass("st-navbar-mini");
+	    	$('.backtotop').removeClass("hidden");
 	    } else if (offset <= 119) {
 	    	$('.st-navbar').removeClass("st-navbar-mini");
+	    	$('.backtotop').addClass("hidden");
 	    }
 	});
 
