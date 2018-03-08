@@ -109,7 +109,7 @@ $(function () {
 	    rewindSpeed : 1000,
 	 
 	    //Autoplay
-	    autoPlay : false,
+	    autoPlay : true,
 	    stopOnHover : false,
 	 
 	    // Navigation

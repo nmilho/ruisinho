@@ -68,19 +68,19 @@ html {
 
  .navbar-brand img {
   height: 57px;
-  -webkit-filter: brightness(0) invert(1);
+ /* -webkit-filter: brightness(0) invert(1);
   filter: brightness(0) invert(1);
   -webkit-transition: all 0.5s;
-          transition: all 0.5s;
+          transition: all 0.5s;*/
 }
-
+/*
  a.navbar-brand:hover img {
  -webkit-transition: all 0.5s;
           transition: all 0.5s;
   -webkit-filter: brightness(1) invert(0);
   filter: brightness(1) invert(0);
 }
-
+*/
  .st-navbar-mini .navbar-default .navbar-brand {
     padding: 15px 15px;
     font-size: 100%;
@@ -304,4 +304,20 @@ body.modal-open {
 .backtotop i {
     vertical-align: sub;
     color: #fff;
+}
+
+
+
+.clients-carousel li {
+    padding: 0 20px;
+    opacity: 0.8;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    transition: all 0.7s ease;
+}
+.clients-carousel li:hover {
+    opacity: 1;
+    filter: none;
+    -webkit-filter: grayscale(0%);
 }
