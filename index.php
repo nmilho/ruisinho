@@ -42,7 +42,7 @@
 							<span class="icon-bar"></span>
 						</button>
 						<a class="navbar-brand" href="/">
-							<img src="newphotos/logo.png" class="img-responsive">
+							<img src="newphotos/logo_h_sm.png" class="img-responsive">
 						</a>
 					</div>
 					
