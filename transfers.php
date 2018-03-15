@@ -92,7 +92,7 @@
 						</div>
 						<div class="row">
 							<div class="col-md-4">
-								<a href="transfers.php/#airport">
+								<a href="transfers.php#airport">
 									<div class="st-feature">
 										<div class="st-feature-icon">
 											<img class="img-responsive" src="photoss/carrinhaaero01.jpg">
@@ -103,16 +103,18 @@
 								</a>
 							</div>
 							<div class="col-md-4">
-								<a href="transfers.php/#professional">
+								<a href="transfers.php#professional">
 									<div class="st-feature">
-										<div class="st-feature-icon"><i class="fa fa-bus"></i></div>
+										<div class="st-feature-icon">
+											<img class="img-responsive" src="photoss/transfprof01.png">
+										</div>
 										<strong class="st-feature-title">Profissional</strong>
 										<p>Transportamos grupos para congressos, conferências e outros eventos de empresas.</p>
 									</div>
 								</a>
 							</div>
 							<div class="col-md-4">
-								<a href="transfers.php/#custom">
+								<a href="transfers.php#custom">
 									<div class="st-feature">
 										<div class="st-feature-icon"><i class="fa fa-road"></i></div>
 										<strong class="st-feature-title">À medida</strong>
@@ -123,6 +125,118 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="row">
+
+					<div class="col-md-12">
+						
+
+						<div class="table-two" data-sr-id="2" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; ">
+					        <div class="table-two__header">
+					          <div class="table-two__header-part">Choose your plan</div>
+					          <div class="table-two__header-part">Features</div>
+					          <div class="table-two__header-part">Prices</div>
+					        </div>
+					        <div class="table-two__body">
+					          <div class="table-two__cell table-two__cell--green">
+					            <div class="table-two__cell-header table-two__cell-header--green">
+					              <div class="table-two__cell-title table-two__cell-title--green">Starter</div>
+					              <div class="table-two__cell-subtitle table-two__cell-subtitle--green">Monthly plan</div>
+					            </div>
+					            <div class="table-two__cell-body table-two__cell-body--grey-bg">
+					              <div class="table-two__cell-list">
+					                <div class="table-two__cell-list-item table-two__cell-list-item--green">Domains</div>
+					                <div class="table-two__cell-list-item table-two__cell-list-item--green">Another</div>
+					                <div class="table-two__cell-list-item table-two__cell-list-item--green">domains<span class="table-two__cell-list-item--yes">yes</span></div>
+					              </div>
+					              <div class="table-two__cell-list">
+					                <div class="table-two__cell-list-item table-two__cell-list-item--inactive">another</div>
+					                <div class="table-two__cell-list-item table-two__cell-list-item--inactive">Domains<span class="table-two__cell-list-item--no">No</span></div>
+					                <div class="table-two__cell-list-item table-two__cell-list-item--inactive">Another<span class="table-two__cell-list-item--no">no</span></div>
+					              </div>
+					            </div>
+					            <div class="table-two__cell-footer table-two__cell-footer--green">
+					              <div class="table-two__cell-price">$13.99</div>
+					              <button class="table-two__cell-button table-two__cell-button--green">Order</button>
+					            </div>
+					          </div>
+					          <div class="table-two__cell table-two__cell--cyan">
+					            <div class="table-two__cell-header table-two__cell-header--cyan">
+					              <div class="table-two__cell-title table-two__cell-title--cyan">Fast</div>
+					              <div class="table-two__cell-subtitle table-two__cell-subtitle--cyan">Monthly plan</div>
+					            </div>
+					            <div class="table-two__cell-body">
+					              <div class="table-two__cell-list">
+					                <div class="table-two__cell-list-item table-two__cell-list-item--cyan">Domains</div>
+					                <div class="table-two__cell-list-item table-two__cell-list-item--cyan">Another</div>
+					                <div class="table-two__cell-list-item table-two__cell-list-item--cyan">domains<span class="table-two__cell-list-item--yes">yes</span></div>
+					              </div>
+					              <div class="table-two__cell-list">
+					                <div class="table-two__cell-list-item table-two__cell-list-item--inactive">another</div>
+					                <div class="table-two__cell-list-item table-two__cell-list-item--inactive">Domains<span class="table-two__cell-list-item--no">No</span></div>
+					                <div class="table-two__cell-list-item table-two__cell-list-item--inactive">Another<span class="table-two__cell-list-item--no">no</span></div>
+					              </div>
+					            </div>
+					            <div class="table-two__cell-footer table-two__cell-footer--grey-bg table-two__cell-footer--cyan">
+					              <div class="table-two__cell-price">$90.99</div>
+					              <button class="table-two__cell-button table-two__cell-button--cyan">Order</button>
+					            </div>
+					          </div>
+					          <div class="table-two__cell table-two__cell--orange">
+					            <div class="table-two__cell-header table-two__cell-header--orange">
+					              <div class="table-two__cell-title table-two__cell-title--orange">Strong</div>
+					              <div class="table-two__cell-subtitle table-two__cell-subtitle--orange">Monthly plan</div>
+					            </div>
+					            <div class="table-two__cell-body table-two__cell-body--grey-bg">
+					              <div class="table-two__cell-list">
+					                <div class="table-two__cell-list-item table-two__cell-list-item--orange">Domains</div>
+					                <div class="table-two__cell-list-item table-two__cell-list-item--orange">Another</div>
+					                <div class="table-two__cell-list-item table-two__cell-list-item--orange">domains<span class="table-two__cell-list-item--yes">yes</span></div>
+					              </div>
+					              <div class="table-two__cell-list">
+					                <div class="table-two__cell-list-item table-two__cell-list-item--inactive">another</div>
+					                <div class="table-two__cell-list-item table-two__cell-list-item--inactive">Domains<span class="table-two__cell-list-item--no">No</span></div>
+					                <div class="table-two__cell-list-item table-two__cell-list-item--inactive">Another<span class="table-two__cell-list-item--no">no</span></div>
+					              </div>
+					            </div>
+					            <div class="table-two__cell-footer table-two__cell-footer--orange">
+					              <div class="table-two__cell-price">$184.99</div>
+					              <button class="table-two__cell-button table-two__cell-button--orange">Order</button>
+					            </div>
+					          </div>
+					          <div class="table-two__cell table-two__cell--red">
+					            <div class="table-two__cell-header table-two__cell-header--red">
+					              <div class="table-two__cell-title table-two__cell-title--red">Proffesional</div>
+					              <div class="table-two__cell-subtitle table-two__cell-subtitle--red">Monthly plan</div>
+					            </div>
+					            <div class="table-two__cell-body">
+					              <div class="table-two__cell-list">
+					                <div class="table-two__cell-list-item table-two__cell-list-item--red">Domains</div>
+					                <div class="table-two__cell-list-item table-two__cell-list-item--red">Another</div>
+					                <div class="table-two__cell-list-item table-two__cell-list-item--red">domains<span class="table-two__cell-list-item--yes">yes</span></div>
+					              </div>
+					              <div class="table-two__cell-list">
+					                <div class="table-two__cell-list-item table-two__cell-list-item--inactive">another</div>
+					                <div class="table-two__cell-list-item table-two__cell-list-item--inactive">Domains<span class="table-two__cell-list-item--no">No</span></div>
+					                <div class="table-two__cell-list-item table-two__cell-list-item--inactive">Another<span class="table-two__cell-list-item--no">no</span></div>
+					              </div>
+					            </div>
+					            <div class="table-two__cell-footer table-two__cell-footer--red table-two__cell-footer--grey-bg">
+					              <div class="table-two__cell-price">$299.99</div>
+					              <button class="table-two__cell-button table-two__cell-button--red">Order</button>
+					            </div>
+					          </div>
+					          <!--.table-two__cell Premium-->
+					          <!--.table-two__cell Professional-->
+					          <!--.table-two__cell Unlimited-->
+					        </div>
+						</div>
+
+
+					</div>
+
+				</div><!-- END ROW -->
+
 			</div>
 		</section>
 
