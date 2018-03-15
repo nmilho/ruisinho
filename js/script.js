@@ -67,10 +67,10 @@ $(function () {
 	    $('.backtotop').css({'opacity': 1-opacity});
 
 	    if (offset >= 120) {
-	    	$('.st-navbar').addClass("st-navbar-mini");
+	    	//$('.st-navbar').addClass("st-navbar-mini");
 	    	$('.backtotop').removeClass("hidden");
 	    } else if (offset <= 119) {
-	    	$('.st-navbar').removeClass("st-navbar-mini");
+	    	//$('.st-navbar').removeClass("st-navbar-mini");
 	    	$('.backtotop').addClass("hidden");
 	    }
 	});

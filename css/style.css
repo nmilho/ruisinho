@@ -1380,12 +1380,12 @@ ul.styled-list.list-star li:before {
 }
 .subscribe {
   padding: 120px 0;
-  background-image: url(../images/subscribe2.png);
+  /*background-image: url(../images/subscribe2.png);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top center;
-  background-color: #000;
+  background-color: #000;*/
 }
 .subscribe .subscribe-title {
   text-align: center;

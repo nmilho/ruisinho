@@ -31,7 +31,7 @@
 	</head>
 	<body data-spy="scroll" data-target=".main-nav" id="body">
 
-		<header class="st-navbar">
+		<header class="st-navbar st-navbar-mini">
 			<nav class="navbar navbar-default navbar-fixed-top clearfix" role="navigation">
 				<div class="container"><!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
@@ -50,9 +50,9 @@
 					<div class="collapse navbar-collapse main-nav" id="sept-main-nav">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="index.php">Inicio</a></li>
-							<li><a href="about.php">Sobre</a></li>
-							<li class="active"><a href="transfers.php">Transporte</a></li>
-							<li><a href="tours.php">Visitas</a></li>
+							<li><a href="about.php">Sobre Nós</a></li>
+							<li class="active"><a href="transfers.php">Transferes</a></li>
+							<li><a href="tours.php">Tours</a></li>
 							<li><a href="contact.php">Contactos</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
@@ -60,60 +60,24 @@
 			</nav>
 		</header>
 		
-		<div id="owl-land" class="owl-carousel landing fixed-top">
-			<div class="owl-slide" style="background-image:url(newphotos/vinha05.jpg);">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="st-home-unit">
-								<div class="hero-txt">
-									<p class="hero-work">Campo - Mar - Aventura</p>
-									<h2 class="hero-title">Explore o Alentejo Conosco</h2>
-									<p class="hero-sub-title">Temos os melhores tours pelo Alentejo</p>
-									<a href="about.php" class="btn btn-main btn-lg">Saiba Mais</a>
-								</div>
-
+		<section class="home" id="home" style="background-image: url(newphotos/vinha03.jpg);">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="st-home-unit" style="opacity: 1; padding: 75.5px 0px;">
+							<div class="hero-txt">
+								<p class="hero-work">Web Design - Web Development - UX Design</p>
+								<h2 class="hero-title">BEST Template for Agency</h2>
+								<!-- <p class="hero-sub-title">We Provide Hight Quality Bootstrap Template</p> -->
+								<!-- <a href="#" class="btn btn-default btn-lg left-btn">Purchase Now</a> -->
+								<a href="#" class="btn btn-main btn-lg">Find Out More</a>
 							</div>
+
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="owl-slide" style="background-image:url(newphotos/vinha01.jpg);">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="st-home-unit">
-								<div class="hero-txt">
-									<p class="hero-work">Campo - Mar - Aventura</p>
-									<h2 class="hero-title">Os Melhores Tours pelo Alentejo</h2>
-									<p class="hero-sub-title">Explore o Alentejo Conosco!</p>
-									<a href="tours.php" class="btn btn-default btn-lg left-btn">Tours Exclusivos</a>
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="owl-slide" style="background-image:url(newphotos/monte01.jpg);">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="st-home-unit">
-								<div class="hero-txt">
-									<p class="hero-work">Campo - Mar - Aventura</p>
-									<h2 class="hero-title">Tours à medida dos clientes</h2>
-									<p class="hero-sub-title">Peça já o seu Orçamento</p>
-									<a href="contact.php" class="btn btn-main btn-lg">Contacte-nos</a>
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
+		</section>
 
 
 		<section class="transfers" id="transfers">
@@ -122,7 +86,7 @@
 					<div class="col-md-12">
 						<div class="section-title st-center">
 							<a href="transfers.php">
-								<h3>Transfers</h3>
+								<h3>Transferes</h3>
 								<p>Segurança e Excelência</p>
 							</a>
 						</div>
@@ -130,7 +94,9 @@
 							<div class="col-md-4">
 								<a href="transfers.php/#airport">
 									<div class="st-feature">
-										<div class="st-feature-icon"><i class="fa fa-plane"></i></div>
+										<div class="st-feature-icon">
+											<img class="img-responsive" src="photoss/carrinhaaero01.jpg">
+										</div>
 										<strong class="st-feature-title">Aeroporto</strong>
 										<p>Excelência e Segurança são o nosso objectivo!</p>
 									</div>
@@ -160,7 +126,7 @@
 			</div>
 		</section>
 
-		<section class="call-2-acction">
+		<section class="call-2-acction" style="background-image: url(newphotos/vinhabgo.jpg);">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -237,37 +203,33 @@
 			</div>
 		</section>
 
-		<section class="subscribe">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="subscribe-title">Like or Follow Us</h3>
-						<ul class="subscribe-social">
-							<li><a href="#" class="social twitter"><i class="fa fa-twitter"></i> Follow</a></li>
-							<li><a href="#" class="social facebook"><i class="fa fa-facebook"></i> Like</a></li>
-							<li><a href="#" class="social instagram"><i class="fa fa-instagram"></i> Follow</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
+
 
 		<a class="backtotop" href="#body"><i class="fa fa-angle-up"></i></a>
 
 		<footer class="site-footer">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
-						&copy; <a href="https://www.landnseatours.com">Land&Sea</a> 2018.
+					<div class="col-md-4" style="text-align: left;">
+						<abbr title="Phone"><i class="fa fa-phone"></i></abbr> (+351) 962 365 789
+						<br/><abbr title="Email"><i class="fa fa-envelope"></i></abbr> info@landseaalentejo.com
+					</div>
+					<div class="col-md-4 subscribe">
+						<ul class="subscribe-social">
+							<li><a href="#" class="social twitter"><i class="fa fa-twitter"></i> Follow</a></li>
+							<li><a href="#" class="social facebook"><i class="fa fa-facebook"></i> Like</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4" style="text-align: right; line-height: 50px;">
+						&copy; <a href="https://www.landseaalentejo.com">Land&Sea</a> 2018.
 						<!-- Don't Remove/Edit this. If you remove this you don't have permission to use this template. -->
-						Designed based on <a href="https://www.cantothemes.com">CantoThemes</a>
+						Design based on <a href="https://www.cantothemes.com">CantoThemes</a>
 						<!-- So Please don't remove this -->
 					</div>
 				</div>
 			</div>
 		</footer>
 
-		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="js/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
