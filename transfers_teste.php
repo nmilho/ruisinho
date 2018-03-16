@@ -15,7 +15,7 @@
 		<link href="css/owl.carousel.css" rel="stylesheet">
 		<link href="css/owl.theme.css" rel="stylesheet">
 		<link href="css/owl.transitions.css" rel="stylesheet">
-		<link href="css/tables2.css" rel="stylesheet">
+		<link href="css/tables.css" rel="stylesheet">
 
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/lsastyle.css" rel="stylesheet">
@@ -119,9 +119,9 @@
 									<div class="table-header">
 
 										<!-- table-header-part -->
-										<div class="table-header-part col-md-4">Trajecto</div>
-										<div class="table-header-part col-md-4">1-4 pax</div>
-										<div class="table-header-part col-md-4">5-7 pax</div>
+										<div class="table-header-part">Trajecto</div>
+										<div class="table-header-part">1-4 pax</div>
+										<div class="table-header-part">5-7 pax</div>
 										<!-- end table-header-part -->
 
 									</div>
@@ -131,9 +131,9 @@
 									<div class="table-body">
 
 										<!-- table-cell -->
-										<div class="table-cell table-cell-blue">
+										<div class="table-cell table-cell-green">
 											<!-- table-cell-header -->
-											<div class="table-cell-header col-md-4 table-cell-header-green">
+											<div class="table-cell-header table-cell-header-green">
 												<div class="table-cell-title table-cell-title-green">
 													Beja / Lisboa Apt
 												</div>
@@ -144,65 +144,22 @@
 											</div>
 											<!-- end table-cell-header -->
 											<!-- table-cell-body -->
-											<div class="table-cell-body col-md-4 table-cell-body-grey">
+											<div class="table-cell-body table-cell-body-grey">
 												215€
 											</div>
 											<!-- end table-cell-body -->
 											<!-- table-cell-footer -->
-											<div class="table-cell-footer col-md-4 table-cell-footer-green">
+											<div class="table-cell-footer table-cell-footer-green">
 												245€
 											</div>
 											<!-- end table-cell-footer -->
 										</div>
 										<!-- end table-cell -->
-										<!-- table-cell -->
-										<div class="table-cell table-cell-grey">
-											<!-- table-cell-header -->
-											<div class="table-cell-header col-md-4 table-cell-header-green">
-												<div class="table-cell-title table-cell-title-green">
-													Beja / Faro Apt
-												</div>
-
-												<div class="table-cell-subtitle table-cell-subtitle-green">
-													Faro Apt / Beja
-												</div>
-											</div>
-											<!-- end table-cell-header -->
-											<!-- table-cell-body -->
-											<div class="table-cell-body col-md-4 table-cell-body-grey">
-												190€
-											</div>
-											<!-- end table-cell-body -->
-											<!-- table-cell-footer -->
-											<div class="table-cell-footer col-md-4 table-cell-footer-green">
-												220€
-											</div>
-											<!-- end table-cell-footer -->
-										</div>
-										<!-- end table-cell -->
-										<!-- table-cell -->
-										<div class="table-cell table-cell-blue">
-											<!-- table-cell-header -->
-											<div class="table-cell-header col-md-4 table-cell-header-green">
-												<div class="table-cell-title table-cell-title-green">
-													Beja / Sines
-												</div>
-
-												<div class="table-cell-subtitle table-cell-subtitle-green">
-													Sines / Beja
-												</div>
-											</div>
-											<!-- end table-cell-header -->
-											<!-- table-cell-body -->
-											<div class="table-cell-body col-md-4 table-cell-body-grey">
-												110€
-											</div>
-											<!-- end table-cell-body -->
-											<!-- table-cell-footer -->
-											<div class="table-cell-footer col-md-4 table-cell-footer-green">
-												140€
-											</div>
-											<!-- end table-cell-footer -->
+										<!-- table-cell 
+										<div class="table-cell table-cell-cyan">
+											<div class="table-cell-header"></div>
+											<div class="table-cell-body"></div>
+											<div class="table-cell-footer"></div>-->
 										</div>
 										<!-- end table-cell -->
 
