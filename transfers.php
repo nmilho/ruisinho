@@ -93,7 +93,7 @@
 						</div>
 						<div class="section-text">
 							<p>
-								Temos o transfer à sua medida  ,vamos ter consigo à zona das chegadas do Aeroporto e acompanhá-lo ao veículo.<br/>
+								Temos o transfer à sua medida, vamos ter consigo à zona das chegadas do Aeroporto e acompanhá-lo ao veículo.<br/>
 								Garantimos pontualidade, segurança e conforto a bordo de uma viatura Mercedes V220 com serviço de internet e águas frescas.<br/>
 								Fazemos qualquer tipo de transfer para qualquer cidade sobe orçamento.
 							</p>
@@ -134,13 +134,7 @@
 										<div class="table-cell table-cell-blue">
 											<!-- table-cell-header -->
 											<div class="table-cell-header col-md-4 table-cell-header-green">
-												<div class="table-cell-title table-cell-title-green">
-													Beja / Lisboa Apt
-												</div>
-
-												<div class="table-cell-subtitle table-cell-subtitle-green">
-													Lisboa Apt / Beja
-												</div>
+												Beja <i class="fa fa-caret-right"></i> Lisboa Apt
 											</div>
 											<!-- end table-cell-header -->
 											<!-- table-cell-body -->
@@ -159,13 +153,7 @@
 										<div class="table-cell table-cell-grey">
 											<!-- table-cell-header -->
 											<div class="table-cell-header col-md-4 table-cell-header-green">
-												<div class="table-cell-title table-cell-title-green">
-													Beja / Faro Apt
-												</div>
-
-												<div class="table-cell-subtitle table-cell-subtitle-green">
-													Faro Apt / Beja
-												</div>
+												Beja <i class="fa fa-caret-right"></i> Faro Apt
 											</div>
 											<!-- end table-cell-header -->
 											<!-- table-cell-body -->
@@ -184,13 +172,7 @@
 										<div class="table-cell table-cell-blue">
 											<!-- table-cell-header -->
 											<div class="table-cell-header col-md-4 table-cell-header-green">
-												<div class="table-cell-title table-cell-title-green">
-													Beja / Sines
-												</div>
-
-												<div class="table-cell-subtitle table-cell-subtitle-green">
-													Sines / Beja
-												</div>
+												Beja <i class="fa fa-caret-right"></i> Sines
 											</div>
 											<!-- end table-cell-header -->
 											<!-- table-cell-body -->
@@ -205,17 +187,136 @@
 											<!-- end table-cell-footer -->
 										</div>
 										<!-- end table-cell -->
+										<!-- table-cell -->
+										<div class="table-cell table-cell-blue">
+											<!-- table-cell-header -->
+											<div class="table-cell-header col-md-4 table-cell-header-green">
+												Beja <i class="fa fa-caret-right"></i> Zambujeira
+											</div>
+											<!-- end table-cell-header -->
+											<!-- table-cell-body -->
+											<div class="table-cell-body col-md-4 table-cell-body-grey">
+												140€
+											</div>
+											<!-- end table-cell-body -->
+											<!-- table-cell-footer -->
+											<div class="table-cell-footer col-md-4 table-cell-footer-green">
+												170€
+											</div>
+											<!-- end table-cell-footer -->
+										</div>
+										<!-- end table-cell -->
+										<!-- table-cell -->
+										<div class="table-cell table-cell-blue">
+											<!-- table-cell-header -->
+											<div class="table-cell-header col-md-4 table-cell-header-green">
+												Beja <i class="fa fa-caret-right"></i> Évora
+											</div>
+											<!-- end table-cell-header -->
+											<!-- table-cell-body -->
+											<div class="table-cell-body col-md-4 table-cell-body-grey">
+												95€
+											</div>
+											<!-- end table-cell-body -->
+											<!-- table-cell-footer -->
+											<div class="table-cell-footer col-md-4 table-cell-footer-green">
+												125€
+											</div>
+											<!-- end table-cell-footer -->
+										</div>
+										<!-- end table-cell -->
+										<!-- table-cell -->
+										<div class="table-cell table-cell-blue">
+											<!-- table-cell-header -->
+											<div class="table-cell-header col-md-4 table-cell-header-green">
+												Beja <i class="fa fa-caret-right"></i> Albufeira
+											</div>
+											<!-- end table-cell-header -->
+											<!-- table-cell-body -->
+											<div class="table-cell-body col-md-4 table-cell-body-grey">
+												170€
+											</div>
+											<!-- end table-cell-body -->
+											<!-- table-cell-footer -->
+											<div class="table-cell-footer col-md-4 table-cell-footer-green">
+												200€
+											</div>
+											<!-- end table-cell-footer -->
+										</div>
+										<!-- end table-cell -->
+										<!-- table-cell -->
+										<div class="table-cell table-cell-blue">
+											<!-- table-cell-header -->
+											<div class="table-cell-header col-md-4 table-cell-header-green">
+												Beja <i class="fa fa-caret-right"></i> Lagos
+											</div>
+											<!-- end table-cell-header -->
+											<!-- table-cell-body -->
+											<div class="table-cell-body col-md-4 table-cell-body-grey">
+												200€
+											</div>
+											<!-- end table-cell-body -->
+											<!-- table-cell-footer -->
+											<div class="table-cell-footer col-md-4 table-cell-footer-green">
+												230€
+											</div>
+											<!-- end table-cell-footer -->
+										</div>
+										<!-- end table-cell -->
+										<!-- table-cell -->
+										<div class="table-cell table-cell-blue">
+											<!-- table-cell-header -->
+											<div class="table-cell-header col-md-4 table-cell-header-green">
+													Beja <i class="fa fa-caret-right"></i> Vila Real St. António
+											</div>
+											<!-- end table-cell-header -->
+											<!-- table-cell-body -->
+											<div class="table-cell-body col-md-4 table-cell-body-grey">
+												170€
+											</div>
+											<!-- end table-cell-body -->
+											<!-- table-cell-footer -->
+											<div class="table-cell-footer col-md-4 table-cell-footer-green">
+												200€
+											</div>
+											<!-- end table-cell-footer -->
+										</div>
+										<!-- end table-cell -->
+										<!-- table-cell -->
+										<div class="table-cell table-cell-blue">
+											<!-- table-cell-header -->
+											<div class="table-cell-header col-md-4 table-cell-header-green">
+												Beja <i class="fa fa-caret-right"></i> Sevilha
+											</div>
+											<!-- end table-cell-header -->
+											<!-- table-cell-body -->
+											<div class="table-cell-body col-md-4 table-cell-body-grey">
+												230€
+											</div>
+											<!-- end table-cell-body -->
+											<!-- table-cell-footer -->
+											<div class="table-cell-footer col-md-4 table-cell-footer-green">
+												260€
+											</div>
+											<!-- end table-cell-footer -->
+										</div>
+										<!-- end table-cell -->
 
 									</div>
 									<!-- end table-body -->
+									<!-- table-footer -->
+									<div class="table-footer">
+										<!-- table-header-part -->
+										<div class="table-footer-part col-md-4">20% adicional entre 21 horas às 7 horas.</div>
+										<div class="table-footer-part col-md-8">Valores com IVA incluído à taxa de 6%.</div>
+										<!-- end table-header-part -->
+									</div>
+									<!-- end table-footer -->
 							</div>	
 							<!-- end table-one -->
 						</div>
 						<!-- end table-section -->
-
-
 					</div>
-
 				</div><!-- END ROW -->
 
 			</div>

@@ -4,17 +4,15 @@
 
 .table-one {
 	color: white;
-	font-family: "Oswald"
-}
-
-.table-header {
-
+	font-family: "Oswald";
+	font-size: 20px;
 }
 
 .table-header-part {
 	text-align: center;
-	background-color: #666;
+	background-color: #0d548a;
 	padding: 20px;
+	border-bottom: 1px solid grey;
 }
 .table-header-part:first-child {
 	border-radius: 10px 0 0;
@@ -24,32 +22,47 @@
 }
 
 .table-cell-header {
-	background-color: #999;
-	color: white;
-	text-align: center;
-	padding: 20px;
-}
-
-.table-cell-title {
-	font-size: 20px;
-}
-.table-cell-subtitle {
-	font-size: 12px;
-}
-
-
-.table-cell-body {
-	background-color: #eee;
 	color: white;
 	text-align: center;
 	padding: 33px;
+	border-bottom: 1px solid grey;
+	background-color: #0d548a;
+	z-index: 999;
+}
+
+.table-cell-header::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 0;
+    border: solid transparent;
+    pointer-events: none;
+    border-top: 2rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    border-left: 1rem solid #0d548a;
+    top: 35%;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    transition: all .5s ease-in-out;
+    left: 100%;
+}
+
+.table-cell-body {
+	background-color: #79c5ff;
+	color: #333;
+	text-align: center;
+	padding: 33px;
+	font-size: 20px;
+	border-bottom: 1px solid grey;
 }
 
 .table-cell-footer {
-	background-color: #bbb;
+	background-color: #0e79d0;
 	color: white;
 	text-align: center;
 	padding: 33px;
+    border-bottom: 1px solid grey;
 }
 
 .table-cell {
@@ -60,10 +73,24 @@
     -ms-transition: all ease-in 200ms;
 }
 
-.table-cell:hover .table-cell-header, 
-.table-cell:hover .table-cell-body, 
+.table-cell:hover .table-cell-header {
+	transition: all ease-in 200ms;
+    -moz-transition: all ease-in 200ms;
+    -webkit-transition: all ease-in 200ms;
+    -o-transition: all ease-in 200ms;
+    -ms-transition: all ease-in 200ms;
+}
+.table-cell:hover .table-cell-body {
+	background-color: #fff;
+	color: #333;
+	transition: all ease-in 200ms;
+    -moz-transition: all ease-in 200ms;
+    -webkit-transition: all ease-in 200ms;
+    -o-transition: all ease-in 200ms;
+    -ms-transition: all ease-in 200ms;
+}
 .table-cell:hover .table-cell-footer {
-	opacity: 0.5;
+	background-color: #fff;
 	color: #333;
 	transition: all ease-in 200ms;
     -moz-transition: all ease-in 200ms;
@@ -72,34 +99,16 @@
     -ms-transition: all ease-in 200ms;
 }
 
-.table-cell-header {
-	background-color: #333;
-}
 
-.table-cell-header::after{
-    content: '';
-    position: absolute;
-    left: 42%;
-    top: 100%;
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 20px solid #e8e8e8;
-    clear: both;
+.table-footer-part {
+    text-align: left;
+    background-color: #0d548a;
+    padding: 5px 15px;
+    font-size: 12px;
 }
-
-/*
-.table-cell-grey .table-cell-footer {
-	background-color: #ccc;
+.table-footer-part:first-child {
+	border-radius: 0 0 0 10px;
 }
-.table-cell-grey .table-cell-body {
-	background-color: #999;
+.table-footer-part:last-child {
+	border-radius: 0 0 10px 0;
 }
-
-.table-cell-blue .table-cell-footer {
-	background-color: #0f75bb;
-}
-.table-cell-blue .table-cell-body {
-	background-color: #0f86cc;
-}*/
